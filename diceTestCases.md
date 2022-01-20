@@ -1,8 +1,8 @@
 # Test cases Dice class
 
-upperBound 2: dots 1,2
-upperBound 3: dots 1,2,3
-upperBound 7: dots 1,2,3,4,5,6,7
+- upperBound 2: dots 1,2
+- upperBound 3: dots 1,2,3
+- upperBound 7: dots 1,2,3,4,5,6,7
 
 ## Test cases for the Constructor
 -   upper bound is integer
@@ -33,9 +33,9 @@ test with all upper bound 2...20
      
 ## Test cases for roll()
 
-dice = new Dice(upperBound);
-dice.roll();
-check if 1 <= dot count <=upperBound
+- dice = new Dice(upperBound);
+- dice.roll();
+- check if 1 <= dot count <=upperBound
 
 -   we can't do anything here because roll is based on random 
 

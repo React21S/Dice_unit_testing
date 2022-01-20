@@ -50,4 +50,5 @@ This is a Dice class for dice games.
 -   returns the upper bound of the dice
 
 
-[!Dice game API](/diceTestCases.md)
+[Dice game API](/diceTestCases.md)
+- check about the test cases for dice class
