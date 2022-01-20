@@ -1,4 +1,4 @@
-[![UnitTesting Dice](https://github.com/React21S/Dice_unit_testing/actions/workflows/main.yml/badge.svg?branch=main)](https://github.com/React21S/Dice_unit_testing/actions/new)
+[![UnitTesting Dice](https://github.com/React21S/Dice_unit_testing/actions/workflows/main.yml/badge.svg?branch=main)](https://github.com/React21S/Dice_unit_testing/actions)
 
 # Dice class (API)
 
