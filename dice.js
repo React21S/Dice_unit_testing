@@ -42,10 +42,21 @@ module.exports = class Dice{
     get dots(){
         return this.dotCount;
     }
-
+// roll() method
     roll(){
         return this.dotCount=Math.ceil(Math.random()*this.upperBound);
 
     }
+// toString() method
+    toString(){
+    //     if(this.dotCount===0){
+    //         return 'Not rolled yet'
+    //     }
+    //     else{
+    //         return `${this.dotCount}`
+    //     }
 
+    return this.dotCount === 0 ? 'Not rolled yet' : `${this.dotCount}`;
+
+    }
 }
