@@ -53,6 +53,16 @@ console.log(`Result: ${Coin.dots === 1 ? 'head' :'tail'}`);
 
 
 // For getting different 3 new Dice
+console.log('##### Array of dice #####')
 const diceArray=[new Dice(), new Dice(), new Dice()];
 diceArray.forEach(dice=>console.log(dice.toString()));
+diceArray.forEach(dice=>dice.roll());
 diceArray.forEach(dice=>console.log(dice.roll()));
+
+// for(let dice of diceArray){
+
+// }
+
+//For summing the result
+const result = diceArray.reduce((sum,dice)=>sum+dice.dots,0);
+console.log(`Sum of dots is ${result}`);
